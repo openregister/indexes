@@ -1,0 +1,143 @@
+// Path to assets for use with the file-url function
+// in the govuk frontend toolkit's url-helpers partial
+$path: "/public/images/";
+
+// Import GOV.UK elements from /govuk-modules/, this will import the frontend toolkit and some base styles.
+// Take a look in /govuk-modules/_govuk-elements.scss to see which files are imported.
+@import 'govuk-elements';
+
+// Take a look at in app/assets/sass/patterns/ to see which files are imported.
+@import 'patterns/check-your-answers';
+
+// Related items
+// (These styles will be moved to GOV.UK elements, duplicating here for now.)
+.govuk-related-items {
+  margin-top: $gutter;
+  border-top: 10px solid $govuk-blue;
+  padding-top: 5px;
+
+  .heading-medium {
+    margin-top: 0.3em;
+    margin-bottom: 0.5em;
+  }
+
+  li {
+    margin-bottom: 10px;
+    list-style-type: none;
+  }
+}
+
+// Add extra styles here, or re-organise the Sass files in whichever way makes most sense to you
+
+span#registers-tagline {
+  font-weight: normal;
+  padding-left: 5px;
+  font-size: 24px;
+  line-height: 1.25;
+}
+
+#global-header .header-proposition #proposition-name {
+  font-weight: bold;
+  line-height: 1.25;
+  font-size: 24px;
+}
+
+aside {
+  margin-top: 10px;
+}
+
+dl dd {
+  float: left;
+  margin: 0;
+  padding-bottom: 1em;
+  width: 65%;
+}
+
+dl dt {
+  clear: left;
+  float: left;
+  font-weight: bold;
+  padding-bottom: 1em;
+  width: 35%;
+}
+
+img.logo {
+  max-width: 50%;
+  margin-top: 45px;
+}
+
+p.legend {
+  font-size: 16px;
+  line-height: 36px;
+  text-align: right;
+}
+
+.grid-row.table-view {
+  padding-top: 40px;
+}
+
+.column-full#table-column {
+  position: relative;
+}
+
+.column-full#table-column h3 {
+  margin-top: 0;
+  margin-bottom: 10px;
+}
+
+.column-full#table-column span.heading-secondary {
+  margin-bottom: 10px;
+  color: #6f777b;
+  display: block;
+}
+
+.table-wrapper.scroll { 
+  overflow-x: scroll;
+  margin-bottom: 25px;
+}
+
+dl {
+  overflow: hidden;
+}
+
+table {
+  border-collapse: collapse;
+  border: 2px solid #DEE0E2;
+}
+
+table td {
+  vertical-align: top;
+  text-align: left;
+  padding: 15px 20px;
+  font-size: 14px;
+  border-bottom: 1px solid #DEE0E2;
+  white-space: nowrap;
+}
+
+thead tr td {
+  font-weight: bold;
+  text-decoration: underline;
+  vertical-align: top;
+  color: #005ea5;
+  background-color: #f5f5f5
+}
+
+thead tr td.key {
+  color: #0b0c0c;
+  text-decoration: none;
+}
+
+table tr td strong {
+  font-weight: 700;
+}
+
+@media (min-width: 641px) {
+  .column-one-fifth {
+    float: left;
+    width: 17.6%;
+    margin-right: 3%;
+  }
+  .column-one-fifth:last-child {
+    margin-right: 0;
+  }
+}

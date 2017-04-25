@@ -1,0 +1,489 @@
+{% extends "layout.html" %}
+
+{% block page_title %}
+  Open Registers
+{% endblock %}
+
+{% block content %}
+
+<main id="content" role="main">
+	<div class="phase-banner">
+		<p>
+		<strong class="phase-tag">BETA</strong>
+		<span>This is a new service – your <a href="#">feedback</a> will help us to improve it.</span>
+		</p>
+	</div>
+	<div class="breadcrumbs">
+		<ol>
+			<li><a href="http://www.openregister.org/">Open Registers</a></li>
+			<li><a href="/index.html">School-eng Register</a></li>
+			<li><a href="/index.html">Schools by local authority</a></li>
+		</ol>
+	</div>
+	<div class="grid-row">
+		<div class="column-two-thirds">
+			<h2 class="heading-large">Schools by local authority<span class="heading-secondary">
+  
+   School-eng register view: 200 records
+</span></h2>
+
+			<p>This page is a view of the School-eng register to group schools by local authority. To view the ungrouped records, go to the <a href="/index.html">School-eng register</a>.</p>
+			<p>Download as: <a href="">json</a>, <a href="">yaml</a>, <a href="">csv</a>, <a href="">tsv</a> and <a href="">ttl</a>.</p>
+			<details>
+				<summary><span class="summary">What are the table headers?</span></summary>
+				<div class="panel panel-border-narrow">
+				<dl>
+					<p>The table headers are part of the <a href="https://field.alpha.openregister.org/records">Field Register</a>. This is what they stand for:</p>
+					<dt>School-eng:</dt>
+					<dd>School in England legally registered to provide full time education to pupils of compulsory school age.</dd>
+					<dt>Name:</dt>
+					<dd>Name of field</dd>
+					<dt>Address:</dt>
+					<dd>An address in the UK.</dd>
+					<dt>School-authority-eng:</dt>
+					<dd>School authority organisation.</dd>
+					<dt>Minimum-age:</dt>
+					<dd>Minimum age.</dd>
+					<dt>Maximum-age:</dt>
+					<dd>Maximum age.</dd>
+					<dt>School-capacity:</dt>
+					<dd>A school’s capacity of pupil places.</dd>
+					<dt>Religious-characters:</dt>
+					<dd>A list of religion or subgroup within a religion operating under a common name, tradition, and identity.</dd>
+					<dt>Religious-ethos:</dt>
+					<dd>A list of religion or subgroup within a religion operating under a common name, tradition, and identity.</dd>
+					<dt>Dioceses:</dt>
+					<dd>A list of districts under the pastoral care of a bishop in the Christian Church.</dd>
+					<dt>Organisation:</dt>
+					<dd>A legal entity.</dd>
+					<dt>School-phases:</dt>
+					<dd>A list of phases of a school.</dd>
+					<dt>School-admissions-policy:</dt>
+					<dd>The admissions policy for a school.</dd>
+					<dt>School-gender:</dt>
+					<dd>The gender of a school.</dd>
+					<dt>School-tags:</dt>
+					<dd>Set of tags which may be applied to a school.</dd>
+					<dt>Headteacher:</dt>
+					<dd>The name of the headteacher or principal for a school or educational establishment.</dd>
+					<dt>Start-date:</dt>
+					<dd>Start datetime for the applicability of a register entry.</dd>
+					<dt>End-date:</dt>
+					<dd>End datetime for the applicability of a register entry.</dd>
+					<dt>Key</dt>
+					<dd>Value assigned to group schools by local authority.</dd>
+				</dl>
+				</div>
+			</details>
+		</div>
+		<div class="column-one-third">
+			<p><img class="logo" id="table-logo" src="/public/images/department_for_education.png"></p>
+		</div>
+	</div>
+	</div>
+	<div class="grid-row table-view">
+
+
+		<div class="column-full" id="table-column">
+			<h3 class="heading-medium">King's Lynn and West Norfolk</h3>
+			<span class="heading-secondary">3 records</span>
+			<img class="table-arrow" id="right" src="/public/images/arrow-right.png">
+			<div class="table-wrapper scroll">
+				<table>
+					<tbody>
+						<thead>
+							<tr>
+								<td>school-eng</td>
+								<td>name</td>
+								<td>address</td>
+								<td>school-authority-eng</td>
+								<td>minimum-age</td>
+								<td>maximum-age</td>
+								<td>school-capacity</td>
+								<td>religious-characters</td>
+								<td>religious-ethos</td>
+								<td>dioceses</td>
+								<td>organisation</td>
+								<td>school-phases</td>
+								<td>school-admissions-policy</td>
+								<td>school-gender</td>
+								<td>school-tags</td>
+								<td>headteacher</td>
+								<td>start-date</td>
+								<td>end-date</td>
+								<td>key</td>
+							</tr>		
+						</thead>
+						<tr>
+							<td><a href="">143648</a></td>
+							<td>Harpenden Free School</td>
+							<td>10093185491</td>
+							<td>919</td>
+							<td>4</td>
+							<td>11</td>
+							<td> </td>
+							<td> </td>
+							<td> </td>
+							<td> </td>
+							<td>academy-school-eng:143648</td>
+							<td>PRI</td>
+							<td> </td>
+							<td> </td>
+							<td> </td>
+							<td>Mrs Lisa Davies</td>
+							<td>2016-09-01</td>
+							<td> </td>
+							<td>KIN</td>
+						</tr>
+						<tr>
+							<td><a href="">138561</a></td>
+							<td>Harpenden Free School</td>
+							<td>10093185491</td>
+							<td>919</td>
+							<td>4</td>
+							<td>11</td>
+							<td>420</td>
+							<td> </td>
+							<td> </td>
+							<td> </td>
+							<td>academy-school-eng:138561</td>
+							<td>PRI</td>
+							<td> </td>
+							<td>M</td>
+							<td> </td>
+							<td>Mrs Lisa Davies</td>
+							<td>2012-09-01</td>
+							<td>2016-08-31</td>
+							<td>KIN</td>
+						</tr>
+						<tr>
+							<td><a href="">138561</a></td>
+							<td>Harpenden Free School</td>
+							<td>10093185491</td>
+							<td>919</td>
+							<td>4</td>
+							<td>11</td>
+							<td>420</td>
+							<td> </td>
+							<td> </td>
+							<td> </td>
+							<td>academy-school-eng:138561</td>
+							<td>PRI</td>
+							<td> </td>
+							<td>M</td>
+							<td> </td>
+							<td>Mrs Lisa Davies</td>
+							<td>2012-09-01</td>
+							<td>2016-08-31</td>
+							<td>KIN</td>
+						</tr>
+					</tbody>
+				</table>
+			</div>
+		</div>
+	</div>
+	<div class="grid-row table-view">
+
+
+		<div class="column-full" id="table-column">
+			<h3 class="heading-medium">Greater London</h3>
+			<span class="heading-secondary">20 records</span>
+			<img class="table-arrow" id="right" src="/public/images/arrow-right.png">
+			<div class="table-wrapper scroll">
+				<table>
+					<tbody>
+						<thead>
+							<tr>
+								<td>school-eng</td>
+								<td>name</td>
+								<td>address</td>
+								<td>school-authority-eng</td>
+								<td>minimum-age</td>
+								<td>maximum-age</td>
+								<td>school-capacity</td>
+								<td>religious-characters</td>
+								<td>religious-ethos</td>
+								<td>dioceses</td>
+								<td>organisation</td>
+								<td>school-phases</td>
+								<td>school-admissions-policy</td>
+								<td>school-gender</td>
+								<td>school-tags</td>
+								<td>headteacher</td>
+								<td>start-date</td>
+								<td>end-date</td>
+								<td>key</td>
+							</tr>		
+						</thead>
+						<tr>
+							<td><a href="">138561</a></td>
+							<td>Harpenden Free School</td>
+							<td>10093185491</td>
+							<td>919</td>
+							<td>4</td>
+							<td>11</td>
+							<td>420</td>
+							<td> </td>
+							<td> </td>
+							<td> </td>
+							<td>academy-school-eng:138561</td>
+							<td>PRI</td>
+							<td> </td>
+							<td>M</td>
+							<td> </td>
+							<td>Mrs Lisa Davies</td>
+							<td>2012-09-01</td>
+							<td>2016-08-31</td>
+							<td>GLA</td>
+						</tr>
+						<tr>
+							<td><a href="">143604</a></td>
+							<td>Larwood School</td>
+							<td>200000586760</td>
+							<td>919</td>
+							<td>5</td>
+							<td>11</td>
+							<td>64</td>
+							<td> </td>
+							<td> </td>
+							<td> </td>
+							<td>academy-school-eng:143604</td>
+							<td> </td>
+							<td>N</td>
+							<td>M</td>
+							<td> </td>
+							<td>Mr S Trimble</td>
+							<td>2016-11-01</td>
+							<td> </td>
+							<td>GLA</td>
+						</tr>
+						<tr>
+							<td><a href="">143603</a></td>
+							<td>Laurance Haines School</td>
+							<td>200000933530</td>
+							<td>919</td>
+							<td>3</td>
+							<td>11</td>
+							<td>420</td>
+							<td> </td>
+							<td> </td>
+							<td> </td>
+							<td>academy-school-eng:143603</td>
+							<td>PRI</td>
+							<td> </td>
+							<td>M</td>
+							<td> </td>
+							<td>Mr James Roach</td>
+							<td>2016-11-01</td>
+							<td> </td>
+							<td>GLA</td>
+						</tr>
+						<tr>
+							<td><a href="">138632</a></td>
+							<td>Monk&#39;s Walk School</td>
+							<td>200003856315</td>
+							<td>919</td>
+							<td>11</td>
+							<td>18</td>
+							<td>1341</td>
+							<td> </td>
+							<td> </td>
+							<td> </td>
+							<td>academy-school-eng:138632</td>
+							<td>SEC</td>
+							<td>C</td>
+							<td>M</td>
+							<td> </td>
+							<td> Kate Smith</td>
+							<td>2012-09-01</td>
+							<td> </td>
+							<td>GLA</td>
+						</tr>
+						<tr>
+							<td><a href="">138539</a></td>
+							<td>Northgate Primary School</td>
+							<td>100081159200</td>
+							<td>919</td>
+							<td>3</td>
+							<td>11</td>
+							<td>480</td>
+							<td> </td>
+							<td> </td>
+							<td> </td>
+							<td>academy-school-eng:138539</td>
+							<td>PRI</td>
+							<td> </td>
+							<td>M</td>
+							<td> </td>
+							<td>Mrs Louisa Hotson</td>
+							<td>2012-08-01</td>
+							<td> </td>
+							<td>GLA</td>
+						</tr>
+					</tbody>
+				</table>
+			</div>
+		</div>
+	</div>
+	<p><a href="">View all records for Greater London</a></p>
+	<div class="grid-row table-view">
+		<div class="column-full" id="table-column">
+			<h3 class="heading-medium">Worthing</h3>
+			<span class="heading-secondary">2 records</span>
+			<img class="table-arrow" id="right" src="/public/images/arrow-right.png">
+			<div class="table-wrapper scroll">
+				<table>
+					<tbody>
+						<thead>
+							<tr>
+								<td>school-eng</td>
+								<td>name</td>
+								<td>address</td>
+								<td>school-authority-eng</td>
+								<td>minimum-age</td>
+								<td>maximum-age</td>
+								<td>school-capacity</td>
+								<td>religious-characters</td>
+								<td>religious-ethos</td>
+								<td>dioceses</td>
+								<td>organisation</td>
+								<td>school-phases</td>
+								<td>school-admissions-policy</td>
+								<td>school-gender</td>
+								<td>school-tags</td>
+								<td>headteacher</td>
+								<td>start-date</td>
+								<td>end-date</td>
+								<td>key</td>
+							</tr>		
+						</thead>
+						<tr>
+							<td><a href="">143648</a></td>
+							<td>Harpenden Free School</td>
+							<td>10093185491</td>
+							<td>919</td>
+							<td>4</td>
+							<td>11</td>
+							<td> </td>
+							<td> </td>
+							<td> </td>
+							<td> </td>
+							<td>academy-school-eng:143648</td>
+							<td>PRI</td>
+							<td> </td>
+							<td> </td>
+							<td> </td>
+							<td>Mrs Lisa Davies</td>
+							<td>2016-09-01</td>
+							<td> </td>
+							<td>WOT</td>
+						</tr>
+						<tr>
+							<td><a href="">138561</a></td>
+							<td>Harpenden Free School</td>
+							<td>10093185491</td>
+							<td>919</td>
+							<td>4</td>
+							<td>11</td>
+							<td>420</td>
+							<td> </td>
+							<td> </td>
+							<td> </td>
+							<td>academy-school-eng:138561</td>
+							<td>PRI</td>
+							<td> </td>
+							<td>M</td>
+							<td> </td>
+							<td>Mrs Lisa Davies</td>
+							<td>2012-09-01</td>
+							<td>2016-08-31</td>
+							<td>WOT</td>
+						</tr>
+					</tbody>
+				</table>
+			</div>
+		</div>
+	</div>
+	<div class="grid-row table-view">
+		<div class="column-full" id="table-column">
+			<h3 class="heading-medium">Mid Sussex</h3>
+			<span class="heading-secondary">2 records</span>
+			<img class="table-arrow" id="right" src="/public/images/arrow-right.png">
+			<div class="table-wrapper scroll">
+				<table>
+					<tbody>
+						<thead>
+							<tr>
+								<td>school-eng</td>
+								<td>name</td>
+								<td>address</td>
+								<td>school-authority-eng</td>
+								<td>minimum-age</td>
+								<td>maximum-age</td>
+								<td>school-capacity</td>
+								<td>religious-characters</td>
+								<td>religious-ethos</td>
+								<td>dioceses</td>
+								<td>organisation</td>
+								<td>school-phases</td>
+								<td>school-admissions-policy</td>
+								<td>school-gender</td>
+								<td>school-tags</td>
+								<td>headteacher</td>
+								<td>start-date</td>
+								<td>end-date</td>
+								<td>key</td>
+							</tr>		
+						</thead>
+						<tr>
+							<td><a href="">143604</a></td>
+							<td>Larwood School</td>
+							<td>200000586760</td>
+							<td>919</td>
+							<td>5</td>
+							<td>11</td>
+							<td>64</td>
+							<td> </td>
+							<td> </td>
+							<td> </td>
+							<td>academy-school-eng:143604</td>
+							<td> </td>
+							<td>N</td>
+							<td>M</td>
+							<td> </td>
+							<td>Mr S Trimble</td>
+							<td>2016-11-01</td>
+							<td> </td>
+							<td>MSS</td>
+						</tr>
+						<tr>
+							<td><a href="">143603</a></td>
+							<td>Laurance Haines School</td>
+							<td>200000933530</td>
+							<td>919</td>
+							<td>3</td>
+							<td>11</td>
+							<td>420</td>
+							<td> </td>
+							<td> </td>
+							<td> </td>
+							<td>academy-school-eng:143603</td>
+							<td>PRI</td>
+							<td> </td>
+							<td>M</td>
+							<td> </td>
+							<td>Mr James Roach</td>
+							<td>2016-11-01</td>
+							<td> </td>
+							<td>MSS</td>
+						</tr>
+					</tbody>
+				</table>
+			</div>
+		</div>
+	</div>
+</main>
+
+{% endblock %}
+
+

@@ -1,0 +1,115 @@
+{% extends "layout.html" %}
+
+{% block page_title %}
+  Open Registers
+{% endblock %}
+
+{% block content %}
+
+<main id="content" role="main">
+	<div class="phase-banner">
+		<p>
+		<strong class="phase-tag">BETA</strong>
+		<span>This is a new service – your <a href="#">feedback</a> will help us to improve it.</span>
+		</p>
+	</div>
+	<div class="grid-row">
+		<div class="column-two-thirds">
+
+			<h2 class="heading-large">School eng register</h2>
+			<p>Schools in England legally registered to provide full time education to pupils of compulsory school age</p>
+			<p><a class="button" href="/table
+			.html" role="button">View register</a></p>
+			<p>You can also <a href="https://country.beta.openregister.org/download">download a copy</a> of the register.</p>
+			<p>The School eng register contains 881 records and includes the following fields:</p>
+			<dl>
+				<dt>School-eng:</dt>
+				<dd>School in England legally registered to provide full time education to pupils of compulsory school age.</dd>
+				<dt>Name:</dt>
+				<dd>Name of field</dd>
+				<dt>Address:</dt>
+				<dd>An address in the UK.</dd>
+				<dt>School-authority-eng:</dt>
+				<dd>School authority organisation.</dd>
+				<dt>Minimum-age:</dt>
+				<dd>Minimum age.</dd>
+				<dt>Maximum-age:</dt>
+				<dd>Maximum age.</dd>
+				<dt>School-capacity:</dt>
+				<dd>A school’s capacity of pupil places.</dd>
+				<dt>Religious-characters:</dt>
+				<dd>A list of religion or subgroup within a religion operating under a common name, tradition, and identity.</dd>
+				<dt>Religious-ethos:</dt>
+				<dd>A list of religion or subgroup within a religion operating under a common name, tradition, and identity.</dd>
+				<dt>Dioceses:</dt>
+				<dd>A list of districts under the pastoral care of a bishop in the Christian Church.</dd>
+				<dt>Organisation:</dt>
+				<dd>A legal entity.</dd>
+				<dt>School-phases:</dt>
+				<dd>A list of phases of a school.</dd>
+				<dt>School-admissions-policy:</dt>
+				<dd>The admissions policy for a school.</dd>
+				<dt>School-gender:</dt>
+				<dd>The gender of a school.</dd>
+				<dt>School-tags:</dt>
+				<dd>Set of tags which may be applied to a school.</dd>
+				<dt>Headteacher:</dt>
+				<dd>The name of the headteacher or principal for a school or educational establishment.</dd>
+				<dt>Start-date:</dt>
+				<dd>Start datetime for the applicability of a register entry.</dd>
+				<dt>End-date:</dt>
+				<dd>End datetime for the applicability of a register entry.</dd>
+			</dl>
+
+			<h4 class="heading-medium">Using this register</h4>
+
+			<p>Download a copy of this register. You'll need to regularly update it to make sure you have the most current version of the data.</p>
+			<p>If you're building a service, you can use this data to create elements for forms.</p>
+			<p>You might need to combine data from this register with data from another source to do this.</p>
+
+    	</div>
+
+
+    	<div class="column-third">
+   			<div class="related-container">
+    			<aside>
+	      			<div class="inner group related-subsection">        
+	      				<h3 class="heading-medium">About this register</h3>
+	        			<h4 class="heading-small">Custodian</h4>
+	        			<p>Andrew Thomson</p>
+	    				<h4 class="heading-small">Managed by</h4>
+	    				<p><img class="logo" src="/public/images/department_for_education.png"></p>
+	    				<h4 class="heading-small">Last updated</h4>
+	    				<ul class="list">
+	    					<li>5 April 2016</li>
+	    					<li><a href="">View recent updates</a></li>
+	    				</ul>
+	    				<h4 class="heading-small">Views of this register</h4>
+	    				<ul class="list">
+	    					<li><a href="/view.html">Active schools</a></li>
+	    					<li><a href="/view_local_auth_v2.html">Schools per local authority</a></li>
+	    				</ul>
+	    				<h4 class="heading-small">Similar registers</h4>
+	    				<p><a href="">School-admissions-policy register</a></p>
+
+	    			</div>
+	    			<div class="inner group related-subsection">        
+	    				<h3 class="heading-medium">More information</h3>
+	    				<ul class="list">
+	    					<li><a href="https://registers-history.herokuapp.com/country">What are registers?</a></li>
+	    					<li><a href="https://www.gov.uk/government/publications/registers/registers">Using Registers</a></li>
+	    					<li><a href="http://openregister.github.io/specification/">Technical documentation</a></li>    					
+	    					<li><a href="https://registers-history.herokuapp.com/country">Register history</a></li>
+	    				</ul>
+      				</div>
+      			</aside>
+
+  			</div>
+
+    	</div>
+    </div>
+</main>
+
+{% endblock %}
+
+
